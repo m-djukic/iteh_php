@@ -1,0 +1,71 @@
+.show button {
+	background-color: silver;
+	border:2px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; 
+	text-decoration: none;
+
+	margin-bottom: 30px;
+    }
+    
+.show{
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 80px;
+    position: absolute;
+    left: 70%;
+    background-color: whitesmoke;	
+    width: 300px;
+    height: 550px;
+}	
+
+.showBtn{
+    margin-top: 20px;
+    background-color: darkslategray;
+    color: whitesmoke;
+    width: 150px;
+    height: 35px;
+    font-weight: bolder;
+    font-size: large;
+}
+    
+.showBtn:hover{
+    color: black;
+}
+
+.comments {
+	position: absolute;
+	left:40px;
+	top:10px;
+}
+body{
+	background : url(images/background1.jpg);
+	background-position: absolute;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.home{
+	position: absolute;
+	left:150px;
+	top:80px;
+}
+
+.home a {
+	text-decoration: none;
+}
+
+.button{
+	background-color: silver;
+	display: block;	
+	border-radius: 12px;	
+}
+
+.button:hover{
+	color: darkblue;
+}
+
+#movies{
+	text-align: center;
+	margin: 30px;
+}
